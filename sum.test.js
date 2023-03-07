@@ -1,5 +1,5 @@
-const sum= require('./sum')
-
-test("test case",()=>{
-    expect(sum()).toBe(3)
+const sum = require('./sum')
+    
+test("object testing",()=>{
+    expect(sum()).toEqual({name:'Puja'})
 })

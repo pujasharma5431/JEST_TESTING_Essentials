@@ -1,5 +1,5 @@
-function sum(){
-    return 1+2;
+function sum()
+{
+    return {name: 'Puja'}
 }
-
-module.exports= sum;
+module.exports=sum;
