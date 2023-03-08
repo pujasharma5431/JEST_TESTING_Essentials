@@ -20,3 +20,11 @@ test('Should be falsy',()=>{
     expect(functions.checkValue(0)).toBeFalsy();
 });
 
+// Check Values
+test('Should be Puja Sharma',()=>{
+    expect(functions.createUser()).toEqual({
+        firstName: 'Puja',
+        lastName: 'Sharma'
+    });
+});
+
