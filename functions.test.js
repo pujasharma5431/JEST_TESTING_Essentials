@@ -40,3 +40,9 @@ test("should be less than 1600",()=>{
 test('There is no I team',()=>{
     expect('teami').not.toMatch(/I/)
 })
+
+// Arrays
+test("Admin should be in usernames",()=>{
+    usernames=['PP','AG','PS']
+    expect(usernames).toContain('PP')
+})
