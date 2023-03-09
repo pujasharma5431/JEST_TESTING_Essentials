@@ -46,3 +46,12 @@ test("Admin should be in usernames",()=>{
     usernames=['PP','AG','PS']
     expect(usernames).toContain('PP')
 })
+
+
+// Working with async data
+test('User fetched name hould be Leanne Graham',()=>{
+    expect.assertions(1);
+    return functions.fetchUser().then(data=>{
+        expect(data.name).toEqual('Leanne Graham');
+    })
+})
