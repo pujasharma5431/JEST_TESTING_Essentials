@@ -27,4 +27,10 @@ test('Should be Puja Sharma',()=>{
         lastName: 'Sharma'
     });
 });
+// Less than abd Freater than
 
+test("should be less than 1600",()=>{
+    const load1= 800;
+    const load2=600;
+    expect(load1+load2).toBeLessThan(1600);
+})
