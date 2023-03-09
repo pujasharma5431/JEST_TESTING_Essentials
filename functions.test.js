@@ -34,3 +34,9 @@ test("should be less than 1600",()=>{
     const load2=600;
     expect(load1+load2).toBeLessThan(1600);
 })
+
+//  Regular expression
+
+test('There is no I team',()=>{
+    expect('teami').not.toMatch(/I/)
+})
